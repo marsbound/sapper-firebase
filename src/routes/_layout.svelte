@@ -1,5 +1,6 @@
 <script>
-  import Firebase from "../components/Firebase.svelte";
+  import FirebaseProvider from "../components/FirebaseProvider.svelte";
+  import AuthenticationProvider from "../components/AuthenticationProvider.svelte";
   import Nav from "../components/Nav.svelte";
 
   export let segment;
@@ -19,7 +20,9 @@
 <Nav {segment} />
 
 <main>
-  <Firebase>
-    <slot />
-  </Firebase>
+  <FirebaseProvider>
+    <AuthenticationProvider>
+      <slot />
+    </AuthenticationProvider>
+  </FirebaseProvider>
 </main>
