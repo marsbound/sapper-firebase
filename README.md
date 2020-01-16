@@ -2,7 +2,7 @@
 
 Sapper template with Firebase integration.
 
-## Quickstart
+<!-- ## Quickstart
 
 ### Using Github template
 
@@ -38,4 +38,4 @@ npm install
 
 ```bash
   npm run dev
-```
+``` -->
