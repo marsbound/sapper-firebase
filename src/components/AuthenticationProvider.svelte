@@ -1,5 +1,5 @@
 <script>
-  import { onMount, onDestroy, setContext, getContext } from "svelte";
+  import { onDestroy, setContext, getContext } from "svelte";
   import { readable } from "svelte/store";
 
   import { CONTEXT_KEY_FIREBASE, CONTEXT_KEY_CURRENT_USER } from "../constants";
